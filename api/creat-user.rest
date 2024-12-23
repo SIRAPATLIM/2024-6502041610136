@@ -1,20 +1,23 @@
-# Identificaiton(Register)
-POST https://localhost:8079/auth/local/register
+#identification(Register)
+POST http://localhost:8079/auth/local/register 
 Content-Type: application/json
-Authorization: Bearer e03e1c8f04184154b7f91522fa5aab69858a077d20c739c22f8e37761e9f8b5c7607760a23debf6b8f07e4afe5b340d2a3629aa33756f1b5ff432937f53bab385f0012bc008e6378119f100973b8f90ab1fd0a940564d1a66ef3e56180d65314446cb3dc91fe41d6191b8d67a9a763382f7fda822dd4c6c9bb456fb69c925601∂
+Authorization: Bearer 6419e5339581956c2c6b0392e28d62aa216433d39cd366ec6f4f3e54f9ce35a005a0ee1ca1717f17d12ba705a31f412288e8a2946c893e767e746c7ca4b996154a182a79d9a9c635a096c09e81d7252bf64f88f06a58c675c1af708ee63b9879474b867ece24d8c22e7e2dcc5406487cdb3c2bda64cab51530034b1641ef99a8
+
 {
-    "username" : "Sirapat",
-    "email" : "s6502041610136@email.kmutnb.ac.th",
-    "password" : "1212312121"
+    "username":"Sirapat",
+    "email":"s6502041610136@email.kmutnb.ac.th",
+    "password":"p@ssw@rd"
 }
 
 
 
-#Autentication(Login)
-POST https://localhost:8079/auth/local
+
+
+#register
+POST http://localhost:8079/auth/local 
 Content-Type: application/json
 
 {
-    "identifier" : "demo@demo.com",
-    "password" : "p@ssw0rd"
+    "identifier":"demo@demo.com",
+    "password":"p@ssw@rd"
 }
