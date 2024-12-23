@@ -1,0 +1,20 @@
+# Identificaiton(Register)
+POST https://localhost:8079/auth/local/register
+Content-Type: application/json
+Authorization: Bearer e03e1c8f04184154b7f91522fa5aab69858a077d20c739c22f8e37761e9f8b5c7607760a23debf6b8f07e4afe5b340d2a3629aa33756f1b5ff432937f53bab385f0012bc008e6378119f100973b8f90ab1fd0a940564d1a66ef3e56180d65314446cb3dc91fe41d6191b8d67a9a763382f7fda822dd4c6c9bb456fb69c925601∂
+{
+    "username" : "Sirapat",
+    "email" : "s6502041610136@email.kmutnb.ac.th",
+    "password" : "1212312121"
+}
+
+
+
+#Autentication(Login)
+POST https://localhost:8079/auth/local
+Content-Type: application/json
+
+{
+    "identifier" : "demo@demo.com",
+    "password" : "p@ssw0rd"
+}
