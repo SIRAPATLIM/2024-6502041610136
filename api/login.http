@@ -1,0 +1,9 @@
+
+# Authentication(Login)
+POST http://localhost:8079/auth/local
+Content-Type: application/json
+
+    {
+        "identifier":"sirapat22",
+        "passwrod" : "p@ssw0rd"
+    }
