@@ -1,23 +1,10 @@
 #identification(Register)
-POST http://localhost:8079/auth/local/register 
+POST http://localhost:8079/api/auth/local/register 
 Content-Type: application/json
-Authorization: Bearer 6419e5339581956c2c6b0392e28d62aa216433d39cd366ec6f4f3e54f9ce35a005a0ee1ca1717f17d12ba705a31f412288e8a2946c893e767e746c7ca4b996154a182a79d9a9c635a096c09e81d7252bf64f88f06a58c675c1af708ee63b9879474b867ece24d8c22e7e2dcc5406487cdb3c2bda64cab51530034b1641ef99a8
+Authorization: Bearer 653de6721e688ad8e3ede6c93106464baf8b06b0dd2602d96fe116c4b0137881881b03330c6b74398c4e37a80f4c1e4a9739f8d711f61e945954013cb9a3f05b28a1d6dc08fbc4d76a5bae413701e9021a906173f8a3872e21b90337d001b90572a487b43ca9c0a7c93dfea3b4b79cc27c52c1a7d206378dd47da7d2064df8af
 
 {
     "username":"Sirapatno.2",
     "email":"s6502041610136@email.kmutnb.ac.th",
-    "password":"p@ssw@rd"
-}
-
-
-
-
-
-#register
-POST http://localhost:8079/auth/local 
-Content-Type: application/json
-
-{
-    "identifier":"demo@demo.com",
     "password":"p@ssw@rd"
 }

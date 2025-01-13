@@ -1,9 +1,9 @@
 
 # Authentication(Login)
-POST http://localhost:8079/auth/local
+POST http://localhost:8079/api/auth/local
 Content-Type: application/json
 
     {
-        "identifier":"sirapat22",
-        "passwrod" : "p@ssw0rd"
+        "identifier":"s6502041610136@email.kmutnb.ac.th",
+        "passwrod" : "p@ssw@rd"
     }
