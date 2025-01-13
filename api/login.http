@@ -5,5 +5,5 @@ Content-Type: application/json
 
     {
         "identifier":"s6502041610136@email.kmutnb.ac.th",
-        "passwrod" : "p@ssw@rd"
+        "password" : "p@ssw@rd"
     }
